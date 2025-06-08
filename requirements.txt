@@ -1,0 +1,7 @@
+pandas==2.2.3
+pm4py==2.7.15.2
+matplotlib==3.10.3
+networkx==3.4.2
+numpy==2.2.5
+graphviz==0.20.3
+scipy==1.15.3

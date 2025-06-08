@@ -54,19 +54,19 @@ if __name__ == "__main__":
     data_path = './data/'
     tgf_path = results_path + 'tgfs/'
 
-    event_log_name_csv = '20250424104319_CELONIS_EXPORT.csv'
+    event_log_name_csv = 'example.csv'
     event_log_name_xes = 'BPI_Challenge_2012.xes'
-
+    
     # # Importing xes and converting to event_log
-    # event_log = pm4py.read_xes(data_path + event_log_name_xes)
+    event_log = pm4py.read_xes(data_path + event_log_name_xes)
 
 
     # Importing CSVs and converting to event_log
-    event_log = import_csv(data_path + event_log_name_csv)
+    # event_log = import_csv(data_path + event_log_name_csv)
     
     # # Creating Log Statistics
     log_statistics = Log_Statistics(event_log)
-    log_statistics.export_statistics_to_txt(results_path + 'log_statistics_Celonis.txt')
+    log_statistics.export_statistics_to_txt(results_path + event_log_name_xes[:-4] +'.txt')
     
    
 

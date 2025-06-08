@@ -37,7 +37,10 @@ Für eine Ausgabe der Modelle als PNGs können die Zeilen 87 & 88 auskommentiert
 Für einen Evaluation des Modells gegen ein anderes Log - beispielsweise das Gesamtlog - können die Zeilen 30-33 verwendet werden. Auch hier muss ein korrekter Dateipfad angegeben werden.
 
 
-
+# Testdatensätze
+Zum Testen können die BPI Challenge Datensätze genutzt werden:
+- https://data.4tu.nl/articles/_/12689204/1
+- https://data.4tu.nl/articles/_/12696884/1
 
 
 

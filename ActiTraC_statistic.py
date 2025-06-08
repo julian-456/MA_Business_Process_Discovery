@@ -11,7 +11,7 @@ from collections import Counter
 
 
 # Pfad zum Ordner mit Logs
-log_folder = "data/ActiTraC/Standard_Parameter_Durchlauf"
+log_folder = "data/"
 # log_folder = "data/ProtoType Selection"
 
 # Ergebnisse sammeln
@@ -92,5 +92,5 @@ for filename in os.listdir(log_folder):
 
 # Als CSV speichern
 df_results = pd.DataFrame(results)
-df_results.to_csv("results/ActiTraC_standard_stat.csv", index=False)
+df_results.to_csv("results/Modell_Statistik_XYZ.csv", index=False)
 

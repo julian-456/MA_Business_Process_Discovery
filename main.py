@@ -4,7 +4,7 @@ from pm4py.visualization.petri_net import visualizer as pn_visualizer
 from pm4py.objects.log.importer.xes import importer as xes_importer
 from log_statitics import Log_Statistics
 from cherry_picker import Cherry_Picker
-from edge_filter import Edge_Filter
+from edge_Filter import Edge_Filter
 from model_statistics import Model_Statistics
 from pm4py.objects.conversion.dfg import converter as dfg_converter
 

@@ -182,4 +182,4 @@ _old/
 
 # behalte die .gitkeep-Dateien in diesen Ordnern
 !data/.gitkeep
-!results/.gitkeep
+!results/*/.gitkeep
